@@ -1,2 +1,4 @@
 # apprenticeship
-My Apprenticeship Work
+My Apprenticeship
+
+## Update from VSCode
