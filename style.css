@@ -4,3 +4,23 @@ nav {
 h1 {
     text-align: center;
 }
+
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008080;
+    color: #F7F4E9;
+    text-decoration: none;       /* Removes default underline */
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+
+/* Hover & Focus states for accessibility */
+.nav-button:hover,
+.nav-button:focus-visible {
+    background-color: #1e4b4c;
+    outline: 2px solid #F7F4E9;
+    outline-offset: 2px;
+}
