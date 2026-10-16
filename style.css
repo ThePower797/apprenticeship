@@ -15,6 +15,7 @@ h1 {
     font-weight: bold;
     text-align: center;
     transition: background-color 0.2s ease;
+    border: 1px solid #F7F4E9
 }
 
 /* Hover & Focus states for accessibility */
