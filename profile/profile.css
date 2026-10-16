@@ -7,11 +7,17 @@ body {
 main{
     margin-left: 50px;
     margin-right: 50px;
+    padding-bottom: 100px;
 }
 
 .profile-picture {
     display: block;
     margin: 0 auto;
+}
+
+.profile-picture:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 .profile-section{
@@ -20,6 +26,29 @@ main{
     border-radius: 12px;
     margin-top: 20px;
     padding: 10px;
+}
+
+.skill {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1E4E4F;
+    color: #F7F4E9;
+    text-decoration: none;       /* Removes default underline */
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+
+.skill:hover {
+    background-color: #1e4b4c;
+    outline: 2px solid #F7F4E9;
+    outline-offset: 2px;
+}
+
+a {
+    color: #F7F4E9;
+    /*text-decoration: none;*/
 }
 
 .two-columns {
@@ -41,6 +70,7 @@ footer {
     text-align: center;
     font-size: 0.9em;
     background-color: #387A7B;
+    border-top: 0.3px solid #fff;
     position: fixed;
     bottom: 0;
     left: 0;
