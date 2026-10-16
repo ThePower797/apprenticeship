@@ -1,15 +1,10 @@
-h1 {
-
-}
-
-h2 {
-
-}
-
 body {
     font-family: Montserrat, sans-serif;
     background-color: #286263;
     color: #F7F4E9;
+}
+
+main{
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -19,16 +14,34 @@ body {
     margin: 0 auto;
 }
 
+.profile-section{
+    background-color: #387A7B;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
 .two-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    background-color: rgba(0, 0, 0, 0.15); /* Adds a subtle dark tint */
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Adds a slight, soft border */
-    border-radius: 12px; /* Rounds the corners */
-    padding: 25px; /* Crucial: Creates space inside the border so text doesn't touch the edges */
+    background-color: rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding: 25px;
 }
 
 .footnotes {
     font-style: italic;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    background-color: #387A7B;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
