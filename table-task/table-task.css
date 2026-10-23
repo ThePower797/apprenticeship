@@ -27,11 +27,15 @@ tbody {
   tr:nth-child(even) {
     background-color: #e495e4;
   }
+  td {
+    padding: 10px;
+  }
 }
 
 tfoot {
   font-family: "Rock Salt", cursive;
   color: #fff;
+  text-shadow: 1px 1px 2px #000;
   text-align: center;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("img/leopardskin.jpg");
 }
