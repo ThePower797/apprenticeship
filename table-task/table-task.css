@@ -1,7 +1,13 @@
 html {
   height: 100%;
 }
-
+body {
+  background-color: #286263;
+  color: #F7F4E9;
+}
+h1, h2, h3, p {
+  font-family: "Rock Salt", cursive;
+}
 table {
   table-layout: fixed;
   width: 100%;
@@ -21,6 +27,7 @@ tbody {
   tr {
     background-image: url('img/noise.png');
     text-align: center;
+    color: #000;
   }
   tr:nth-child(odd) {
     background-color: #ff33cc;
