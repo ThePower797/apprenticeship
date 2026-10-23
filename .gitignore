@@ -1,5 +1,4 @@
 ignore-please.md
-profile/.DS_Store
 .ai
 .idea
-.DS_Store
+*.DS_Store
